@@ -1,5 +1,4 @@
 #include "BluetoothSerial.h"
-#include <elapsedMillis.h>
 
 #define IR1_PIN 2
 #define IR2_PIN 3 
@@ -66,9 +65,3 @@ void loop() {
     delay(10);
   }
 }
-
-
-
-
-
-
